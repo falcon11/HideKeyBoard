@@ -10,11 +10,15 @@
     
 }
 
+
+
 //第一种收起键盘的方法
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self.view endEditing:YES];
 }
+
+
 //第二种收起键盘的方法
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
