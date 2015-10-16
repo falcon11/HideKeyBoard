@@ -1,4 +1,5 @@
 # HideKeyBoard
+<code>
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -29,3 +30,4 @@
 {
     [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }
+</code>
